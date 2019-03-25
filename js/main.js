@@ -5,7 +5,6 @@ jQuery(document).ready(function($) {
     scrollBtnOffset = screenHeight / 2;
 
     $(document).scroll(function() {
-        console.log($(document).scrollTop());
         if ($(document).scrollTop() >= scrollBtnOffset) {
             $scrollBtn.addClass('scrolled');
         } else {
