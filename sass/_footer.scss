@@ -1,0 +1,140 @@
+footer {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    background: url('assets/images/footer.png');
+    background-size: cover;
+    background-position: center;
+
+    padding: 30px 0px;
+
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: white;
+        transition: all 0.125s;
+
+        &:hover {
+            color: dodgerblue;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+    }
+
+    .footer-columns {
+        padding: 12px 0px;
+
+        .social-media-box {
+            padding: 0;
+            
+        }
+        .yelp-box {
+            padding: 0;
+            float: left;
+            .icons {       
+                display:inline-block;
+                width: 49%; 
+                height: auto; 
+            }
+            .yelp-review-text {
+                .highlight-text {
+                    color: #507981;
+                }
+
+                @media (max-width: 992px) {
+                    font-size: 0.8em;
+                }
+                @media (min-width: 992px) {
+                    font-size: 0.8em;
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            text-align: center;
+            margin: 0;
+            max-width: 100%;
+            .yelp-box {
+                text-align: left;
+            }
+
+            li {
+                margin: 5px 0px;
+            }
+        }
+        @media (max-width: 992px) and (min-width: 767px) {
+            .second-row-column {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+    .footer-box {
+        background: #0C1A26;
+        padding: 24px;
+
+        .footer-box-text {
+            br {
+                display: none;
+            }
+        }
+
+        @media (max-width: 992px) {
+            max-width: 100%;
+            font-size: 0.85em;
+        }
+        @media (max-width: 768px) {
+            background: none;
+            .footer-box-heading {
+                text-align: center;
+            }
+            .footer-box-text {
+                text-align: justify;
+
+                br {
+                    display: block;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+
+    .footer-credits {
+        padding-top: 30px;
+
+        @media (max-width: 768px) {
+            font-size: 0.8em;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer-wrap {
+            max-width: 100%;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+
+        .column-heading {
+            font-size: 1.2em;
+        }        
+    }
+
+    .small-box {
+        .col {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

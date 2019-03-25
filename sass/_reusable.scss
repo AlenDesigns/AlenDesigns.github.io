@@ -1,0 +1,19 @@
+.social-media-stack {   
+    &:hover {
+        cursor: pointer;
+        .social-media-icon {
+            color: white;
+        }
+        .fa-circle {
+            color: dodgerblue;
+        }
+    }
+    .social-media-icon {
+        color: black;
+    }
+
+    .social-media-icon,
+    .fa-circle {
+        transition: all 0.25s;
+    }
+}

@@ -1,0 +1,21 @@
+.content {
+    height: 100vh;
+    background: #888;
+    position: relative;
+    transition: all 0.25s;
+
+    &:hover {
+        background: #111;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #444;
+        font-weight: 100;
+        font-size: 3em;
+        letter-spacing: 2px;
+    }
+}

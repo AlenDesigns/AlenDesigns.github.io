@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300|Lora");
+.content {
+  height: 100vh;
+  background: #888;
+  position: relative;
+  transition: all 0.25s;
+}
+.content:hover {
+  background: #111;
+}
+.content .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #444;
+  font-weight: 100;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+footer {
+  background: url("assets/images/footer.png");
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0px;
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.125s;
+}
+footer a:hover {
+  color: dodgerblue;
+  text-decoration: none;
+  margin-left: 5px;
+}
+footer .footer-columns {
+  padding: 12px 0px;
+}
+footer .footer-columns .social-media-box {
+  padding: 0;
+}
+footer .footer-columns .yelp-box {
+  padding: 0;
+  float: left;
+}
+footer .footer-columns .yelp-box .icons {
+  display: inline-block;
+  width: 49%;
+  height: auto;
+}
+footer .footer-columns .yelp-box .yelp-review-text .highlight-text {
+  color: #507981;
+}
+@media (max-width: 992px) {
+  footer .footer-columns .yelp-box .yelp-review-text {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 992px) {
+  footer .footer-columns .yelp-box .yelp-review-text {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 767px) {
+  footer .footer-columns {
+    text-align: center;
+    margin: 0;
+    max-width: 100%;
+  }
+  footer .footer-columns .yelp-box {
+    text-align: left;
+  }
+  footer .footer-columns li {
+    margin: 5px 0px;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  footer .footer-columns .second-row-column {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+footer .footer-box {
+  background: #0C1A26;
+  padding: 24px;
+}
+footer .footer-box .footer-box-text br {
+  display: none;
+}
+@media (max-width: 992px) {
+  footer .footer-box {
+    max-width: 100%;
+    font-size: 0.85em;
+  }
+}
+@media (max-width: 768px) {
+  footer .footer-box {
+    background: none;
+  }
+  footer .footer-box .footer-box-heading {
+    text-align: center;
+  }
+  footer .footer-box .footer-box-text {
+    text-align: justify;
+  }
+  footer .footer-box .footer-box-text br {
+    display: block;
+    margin: 10px 0;
+  }
+}
+footer .footer-credits {
+  padding-top: 30px;
+}
+@media (max-width: 768px) {
+  footer .footer-credits {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 768px) {
+  footer .footer-wrap {
+    max-width: 100%;
+  }
+  footer a {
+    font-size: 0.8em;
+  }
+  footer p {
+    font-size: 0.8em;
+  }
+  footer .column-heading {
+    font-size: 1.2em;
+  }
+}
+footer .small-box .col {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+}
+
+.social-media-stack:hover {
+  cursor: pointer;
+}
+.social-media-stack:hover .social-media-icon {
+  color: white;
+}
+.social-media-stack:hover .fa-circle {
+  color: dodgerblue;
+}
+.social-media-stack .social-media-icon {
+  color: black;
+}
+.social-media-stack .social-media-icon,
+.social-media-stack .fa-circle {
+  transition: all 0.25s;
+}
+
+/*# sourceMappingURL=main.css.map */
