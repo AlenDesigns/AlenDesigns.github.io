@@ -157,11 +157,6 @@ footer .footer-credits {
 }
 @media (max-width: 600px) {
   footer .footer-credits {
-    font-size: 0.6em;
-  }
-}
-@media (max-width: 400px) {
-  footer .footer-credits {
     font-size: 0.4em;
   }
 }
