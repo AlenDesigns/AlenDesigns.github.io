@@ -1,0 +1,31 @@
+.scroll-top-btn {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    background: #193d5a;
+    border:none;
+    color: white;
+    z-index: 9999;
+    transition: all 0.25s;
+    .icon {
+        padding: 12px;
+        margin: 0;
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    &:hover {
+        background: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.scrolled {
+    opacity: 1;
+    visibility: visible;
+}
