@@ -142,8 +142,9 @@ footer .footer-box .footer-box-text br {
     text-align: justify;
   }
   footer .footer-box .footer-box-text br {
+    content: "";
     display: block;
-    margin: 10px 0;
+    margin: 20px 0px;
   }
 }
 footer .footer-credits {
