@@ -113,8 +113,12 @@ footer {
             font-size: 0.8em;
         }
 
-        @media (max-width: 600px) {
-            font-size: 0.6em;
+        @media (max-width: 767px) and (min-width: 401px) {
+            font-size: 5em;
+        }
+
+        @media (max-width: 400px) {
+            font-size: 0.5em;
         }
 
         @media (max-width: 360px) {
