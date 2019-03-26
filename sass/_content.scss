@@ -2,6 +2,9 @@
     height: 100vh;
     background: #888;
     position: relative;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
     transition: all 0.25s;
 
     &:hover {
@@ -12,6 +15,9 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -o-tranform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         color: #444;
         font-weight: 100;

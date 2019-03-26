@@ -16,7 +16,11 @@ footer {
     a {
         text-decoration: none;
         color: white;
+        -moz-transition: all 0.125s;
+        -webkit-transition: all 0.125s;
+        -o-transition: all 0.125s;
         transition: all 0.125s;
+
 
         &:hover {
             color: dodgerblue;
